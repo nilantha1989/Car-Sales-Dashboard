@@ -1,0 +1,5 @@
+relationship b2e8bb35-6fc2-49b5-86cd-64dc21fee10d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: car_data.Date
+	toColumn: LocalDateTable_e7127325-6dd7-4a11-9022-14d1764c40c5.Date
+

@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-CA
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBIDesktopVersion = 2.139.1678.0 (24.12)+2a034ab280bddf891eb7bb9ebfe6996f9c3a3196
+
+annotation PBI_QueryOrder = ["car_data"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table car_data
+ref table DateTableTemplate_eb3b8680-ffe9-447a-8ad8-24973711be72
+ref table LocalDateTable_e7127325-6dd7-4a11-9022-14d1764c40c5
+
+ref cultureInfo en-US
+
