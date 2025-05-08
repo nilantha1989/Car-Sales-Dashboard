@@ -4,10 +4,10 @@
   "position": {
     "x": 16,
     "y": 432,
-    "z": 31000,
+    "z": 21000,
     "height": 64,
     "width": 144,
-    "tabOrder": 31000
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "slicer",
@@ -118,49 +118,7 @@
       ],
       "general": [
         {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "c",
-                    "Entity": "car_data",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "c"
-                                }
-                              },
-                              "Property": "Dealer_Name"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Chrysler of Tri-Cities'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          }
+          "properties": {}
         }
       ]
     },
