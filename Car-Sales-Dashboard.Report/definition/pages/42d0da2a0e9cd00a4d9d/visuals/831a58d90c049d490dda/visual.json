@@ -1,0 +1,401 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "831a58d90c049d490dda",
+  "position": {
+    "x": 192,
+    "y": 208,
+    "z": 33001,
+    "height": 480,
+    "width": 1040,
+    "tabOrder": 33001
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Car_id"
+                }
+              },
+              "queryRef": "car_data.Car_id",
+              "nativeQueryRef": "Car_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Date"
+                }
+              },
+              "queryRef": "car_data.Date",
+              "nativeQueryRef": "Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Customer Name"
+                }
+              },
+              "queryRef": "car_data.Customer Name",
+              "nativeQueryRef": "Customer Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Dealer_Name"
+                }
+              },
+              "queryRef": "car_data.Dealer_Name",
+              "nativeQueryRef": "Dealer_Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Company"
+                }
+              },
+              "queryRef": "car_data.Company",
+              "nativeQueryRef": "Company"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Color"
+                }
+              },
+              "queryRef": "car_data.Color",
+              "nativeQueryRef": "Color"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Model"
+                }
+              },
+              "queryRef": "car_data.Model",
+              "nativeQueryRef": "Model"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "car_data"
+                        }
+                      },
+                      "Property": "Price ($)"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(car_data.Price ($))",
+              "nativeQueryRef": "Total Sales",
+              "displayName": "Total Sales"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "car_data"
+                  }
+                },
+                "Property": "Customer Name"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "values": [
+        {
+          "properties": {
+            "backColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.1
+                    }
+                  }
+                }
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorPrimary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Bold'', wf_segoe-ui_bold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "163.84615384615384D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "car_data.Customer Name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "167.9230769230769D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "car_data.Date"
+          }
+        }
+      ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000D"
+                }
+              }
+            },
+            "dataBars": {
+              "positiveColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'maxColor'"
+                      }
+                    }
+                  }
+                }
+              },
+              "negativeColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'minColor'"
+                      }
+                    }
+                  }
+                }
+              },
+              "axisColor": {
+                "solid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'foreground'"
+                      }
+                    }
+                  }
+                }
+              },
+              "reverseDirection": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "hideText": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              },
+              "totalMatchingOption": {
+                "expr": {
+                  "Literal": {
+                    "Value": "1L"
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(car_data.Price ($))"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Minimal'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "26729e4059b0732a9667",
+  "position": {
+    "x": 16,
+    "y": 432,
+    "z": 31000,
+    "height": 64,
+    "width": 144,
+    "tabOrder": 31000
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "Dealer_Name"
+                }
+              },
+              "queryRef": "car_data.Dealer_Name",
+              "nativeQueryRef": "Dealer_Name",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dealer Name'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "c",
+                    "Entity": "car_data",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "In": {
+                        "Expressions": [
+                          {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "c"
+                                }
+                              },
+                              "Property": "Dealer_Name"
+                            }
+                          }
+                        ],
+                        "Values": [
+                          [
+                            {
+                              "Literal": {
+                                "Value": "'Chrysler of Tri-Cities'"
+                              }
+                            }
+                          ]
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

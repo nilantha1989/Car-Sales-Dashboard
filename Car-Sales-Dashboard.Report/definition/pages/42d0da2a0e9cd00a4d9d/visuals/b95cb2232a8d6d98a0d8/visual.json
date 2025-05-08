@@ -1,0 +1,227 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "b95cb2232a8d6d98a0d8",
+  "position": {
+    "x": 416,
+    "y": 64,
+    "z": 12000,
+    "height": 64,
+    "width": 80,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "car_data"
+                    }
+                  },
+                  "Property": "YoY Sales Growth"
+                }
+              },
+              "queryRef": "car_data.YoY Sales Growth",
+              "nativeQueryRef": "YoY Sales Growth"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "car_data"
+                  }
+                },
+                "Property": "YoY Sales Growth"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "car_data"
+                                    }
+                                  },
+                                  "Property": "Sales Diff Colour"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "'Red'"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 2
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#F23341'"
+                            }
+                          }
+                        },
+                        {
+                          "Condition": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Measure": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Entity": "car_data"
+                                    }
+                                  },
+                                  "Property": "Sales Diff Colour"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "'Green'"
+                                }
+                              }
+                            },
+                            "Annotations": {
+                              "PowerBI.SQExprEvaluationKind": 1,
+                              "PowerBI.SQExprTextOperatorOption": 2
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#089503'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

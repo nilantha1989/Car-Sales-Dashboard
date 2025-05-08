@@ -2,8 +2,6296 @@ cultureInfo en-US
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "car_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "car data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "car data": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "car_data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "car information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "car document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "car figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.car_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Car_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "car id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "car id": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Car_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "car": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "car": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "car identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "car credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "carriage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Pullman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "flatcar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sleeper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wagon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "coach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "car_data.customer_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Customer Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer name": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "customer nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gender": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.annual_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Annual Income"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annual income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annual income": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "annual revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "annual salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "annual pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.dealer_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Dealer_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dealer name": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dealer_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dealer": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dealer nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "trader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "supplier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "wholesaler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "merchant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "broker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.company": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Company"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "company": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corps": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "enterprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "conglomerate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "co inc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.model": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Model"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "model": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "perfect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "classic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ideal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "representative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mockup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "representation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "simulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "copy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.engine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Engine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engine": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "appliance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apparatus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "contraption": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mechanism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "train": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "locomotive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "machine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "instrument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.transmission": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Transmission"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transmission": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transmission": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "broadcast": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "diffusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "conduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "color": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Price ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price ($)": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "car_data.dealer_no": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Dealer_No "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer no": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dealer no": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dealer_No ": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Dealer_No": {
+			            "State": "Generated",
+			            "Weight": 0.96029999999999993
+			          }
+			        },
+			        {
+			          "Dealer_No": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.96029999999999993
+			          }
+			        },
+			        {
+			          "dealer number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.body_style": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Body Style"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "body style": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "body style": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "style": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "body panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "body elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "body stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "body flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "body smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "panache": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "elegance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stylishness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "flair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "smartness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.phone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Phone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "phone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "phone": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "handset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "receiver": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "headset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "telephone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.dealer_region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Dealer_Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dealer region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dealer region": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dealer_Region": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "region": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dealer location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "dealer province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "dealer area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dealer continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YTD_total_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YTD Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YTD total sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YTD total sales": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ytd total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "ytd aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "ytd overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year to date total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.498
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.PYTD_total_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "PYTD Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PYTD total sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PYTD total sales": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pytd total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "pytd aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "pytd overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.sales_difference": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Sales Difference"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales difference": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales difference": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "difference": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "difference": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale difference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "sale alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sale variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sale modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sale transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sale metamorphosis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "transformation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.sales_diff_colour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Sales Diff Colour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales diff colour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales diff colour": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "colour": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "colour": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "diff colour": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "diff colour": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale diff colour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YoY_sales_growth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YoY Sales Growth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YoY sales growth": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YoY sales growth": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yoy sale growth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "yoy sale development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "yoy sale evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "yoy sale progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "yoy sale growing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "yoy sale progress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "yoy sale advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "yoy sale tumor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "yoy sale cyst": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "yoy sale outgrowth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.MTD_total_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MTD total sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MTD total sales": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mtd total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "mtd aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "mtd overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.mtd_kpi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mtd kpi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mtd kpi": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.avg_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Avg Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "avg value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "avg cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YTD_avg_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YTD Avg Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YTD avg price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YTD avg price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ytd average price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year to date avg price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.498
+			          }
+			        },
+			        {
+			          "ytd avg value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd avg expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.PYTD_avg_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "PYTD Avg Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PYTD avg price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PYTD avg price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pytd average price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "pytd avg value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd avg cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.avg_price_diff": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Avg Price Diff"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg price diff": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg price diff": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average price diff": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.avg_price_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Avg Price Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg price color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg price color": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average price color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "avg price hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg price tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg price shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg price dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg price paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg price pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YoY_avg_price_growth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YoY Avg Price Growth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YoY avg price growth": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YoY avg price growth": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yoy average price growth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "yoy avg price development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy avg price evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy avg price progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy avg price growing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy avg price progress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy avg price advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy avg price tumor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "yoy avg price cyst": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "yoy avg price outgrowth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.MTD_avg_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD Avg Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MTD avg price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MTD avg price": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mtd average price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "mtd avg value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd avg cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.MTD_avg_price_KPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD Avg Price KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MTD avg price KPI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MTD avg price KPI": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mtd average price kpi": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YTD_cars_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YTD Cars Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YTD cars sold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YTD cars sold": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ytd carriage sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ytd Pullman sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ytd flatcar sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ytd sleeper sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "year to date car sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.498
+			          }
+			        },
+			        {
+			          "ytd wagon sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd coach sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd compartment sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ytd vehicle sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "ytd sedan sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.PYTD_cars_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "PYTD Cars Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PYTD cars sold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PYTD cars sold": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pytd carriage sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pytd Pullman sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pytd flatcar sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pytd sleeper sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pytd wagon sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd coach sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd compartment sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pytd vehicle sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pytd sedan sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "pytd coupé sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.cars_sold_diff": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Cars Sold Diff"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cars sold diff": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cars sold diff": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.cars_sold_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Cars Sold Color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cars sold color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cars sold color": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "car sold hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "car sold tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "car sold shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "car sold dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "car sold paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "car sold pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.YoY_car_sold_growth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "YoY Car Sold Growth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "YoY car sold growth": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YoY car sold growth": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yoy car sold development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy car sold evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy car sold progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "yoy car sold growing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy car sold progress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy car sold advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "yoy car sold tumor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "yoy car sold cyst": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "yoy car sold outgrowth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "yoy car sold carcinoma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.MTD_cars_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD Cars Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MTD cars sold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MTD cars sold": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mtd carriage sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "mtd Pullman sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "mtd flatcar sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "mtd sleeper sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "mtd wagon sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd coach sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd compartment sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mtd vehicle sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "mtd sedan sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "mtd coupé sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.MTD_cars_sold_KPI": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "MTD Cars Sold KPI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MTD cars sold KPI": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MTD cars sold KPI": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.total_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total sales": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "car_data.max_point": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "car_data",
+			          "ConceptualProperty": "Max Point"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max point": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "max point": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "point": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maximum point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "max opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "max fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "max idea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "max argument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "max topic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "idea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "argument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "calendar_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calendar table": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calendar tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "calendar bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "calendar spreadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "calendar_table.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendar_table.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "calendar_table.week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendar Table",
+			          "ConceptualProperty": "Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "week": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "car_data_dealer_name_deal_car_data": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data.dealer_name": {
+			          "Target": {
+			            "Entity": "car_data.dealer_name"
+			          }
+			        },
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "car_data.dealer_name"
+			            },
+			            "Verbs": [
+			              {
+			                "deal": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "car_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "dealer_names_deal_car_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data.dealer_name"
+			            },
+			            "Object": {
+			              "Role": "car_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dealer_names_have_car_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.dealer_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_dealer_names"
+			        }
+			      ]
+			    },
+			    "car_data_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.price": {
+			          "Target": {
+			            "Entity": "car_data.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "car_data.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_car_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_prices"
+			        }
+			      ]
+			    },
+			    "car_data_in_dealer_region": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.dealer_region": {
+			          "Target": {
+			            "Entity": "car_data.dealer_region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "car_data.dealer_region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "car_data.dealer_region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_are_in_dealer_regions"
+			        }
+			      ]
+			    },
+			    "car_data_has_car_id": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.car_id": {
+			          "Target": {
+			            "Entity": "car_data.car_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.car_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_car_ids"
+			        }
+			      ]
+			    },
+			    "car_data_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.date": {
+			          "Target": {
+			            "Entity": "car_data.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_dates"
+			        }
+			      ]
+			    },
+			    "car_data_has_customer_name": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.customer_name": {
+			          "Target": {
+			            "Entity": "car_data.customer_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.customer_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_customer_names"
+			        }
+			      ]
+			    },
+			    "car_data_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.gender": {
+			          "Target": {
+			            "Entity": "car_data.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_genders"
+			        }
+			      ]
+			    },
+			    "car_data_has_annual_income": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.annual_income": {
+			          "Target": {
+			            "Entity": "car_data.annual_income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.annual_income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_annual_incomes"
+			        }
+			      ]
+			    },
+			    "car_data_has_company": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.company": {
+			          "Target": {
+			            "Entity": "car_data.company"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.company"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_companies"
+			        }
+			      ]
+			    },
+			    "car_data_has_model": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.model": {
+			          "Target": {
+			            "Entity": "car_data.model"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.model"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_models"
+			        }
+			      ]
+			    },
+			    "car_data_has_engine": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.engine": {
+			          "Target": {
+			            "Entity": "car_data.engine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.engine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_engines"
+			        }
+			      ]
+			    },
+			    "car_data_has_transmission": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.transmission": {
+			          "Target": {
+			            "Entity": "car_data.transmission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.transmission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_transmissions"
+			        }
+			      ]
+			    },
+			    "car_data_has_color": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.color": {
+			          "Target": {
+			            "Entity": "car_data.color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_colors"
+			        }
+			      ]
+			    },
+			    "car_data_has_dealer_no": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.dealer_no": {
+			          "Target": {
+			            "Entity": "car_data.dealer_no"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.dealer_no"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_dealer_noes"
+			        }
+			      ]
+			    },
+			    "car_data_has_body_style": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.body_style": {
+			          "Target": {
+			            "Entity": "car_data.body_style"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.body_style"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_body_styles"
+			        }
+			      ]
+			    },
+			    "car_data_has_phone": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.phone": {
+			          "Target": {
+			            "Entity": "car_data.phone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.phone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_phones"
+			        }
+			      ]
+			    },
+			    "car_data_has_dealer_region": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.dealer_region": {
+			          "Target": {
+			            "Entity": "car_data.dealer_region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.dealer_region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_dealer_regions"
+			        }
+			      ]
+			    },
+			    "car_data_has_YTD_total_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YTD_total_sales": {
+			          "Target": {
+			            "Entity": "car_data.YTD_total_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YTD_total_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YTD_total_sales"
+			        }
+			      ]
+			    },
+			    "car_data_has_PYTD_total_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.PYTD_total_sales": {
+			          "Target": {
+			            "Entity": "car_data.PYTD_total_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.PYTD_total_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_PYTD_total_sales"
+			        }
+			      ]
+			    },
+			    "car_data_has_sales_difference": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.sales_difference": {
+			          "Target": {
+			            "Entity": "car_data.sales_difference"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.sales_difference"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_sales_difference"
+			        }
+			      ]
+			    },
+			    "car_data_has_sales_diff_colour": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.sales_diff_colour": {
+			          "Target": {
+			            "Entity": "car_data.sales_diff_colour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.sales_diff_colour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_sales_diff_colour"
+			        }
+			      ]
+			    },
+			    "car_data_has_YoY_sales_growth": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YoY_sales_growth": {
+			          "Target": {
+			            "Entity": "car_data.YoY_sales_growth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YoY_sales_growth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YoY_sales_growth"
+			        }
+			      ]
+			    },
+			    "car_data_has_MTD_total_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.MTD_total_sales": {
+			          "Target": {
+			            "Entity": "car_data.MTD_total_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.MTD_total_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_MTD_total_sales"
+			        }
+			      ]
+			    },
+			    "car_data_has_mtd_kpi": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.mtd_kpi": {
+			          "Target": {
+			            "Entity": "car_data.mtd_kpi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.mtd_kpi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_mtd_kpi"
+			        }
+			      ]
+			    },
+			    "car_data_has_avg_price": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.avg_price": {
+			          "Target": {
+			            "Entity": "car_data.avg_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.avg_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_avg_price"
+			        }
+			      ]
+			    },
+			    "car_data_has_YTD_avg_price": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YTD_avg_price": {
+			          "Target": {
+			            "Entity": "car_data.YTD_avg_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YTD_avg_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YTD_avg_price"
+			        }
+			      ]
+			    },
+			    "car_data_has_PYTD_avg_price": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.PYTD_avg_price": {
+			          "Target": {
+			            "Entity": "car_data.PYTD_avg_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.PYTD_avg_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_PYTD_avg_price"
+			        }
+			      ]
+			    },
+			    "car_data_has_avg_price_diff": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.avg_price_diff": {
+			          "Target": {
+			            "Entity": "car_data.avg_price_diff"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.avg_price_diff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_avg_price_diff"
+			        }
+			      ]
+			    },
+			    "car_data_has_avg_price_color": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.avg_price_color": {
+			          "Target": {
+			            "Entity": "car_data.avg_price_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.avg_price_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_avg_price_color"
+			        }
+			      ]
+			    },
+			    "car_data_has_YoY_avg_price_growth": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YoY_avg_price_growth": {
+			          "Target": {
+			            "Entity": "car_data.YoY_avg_price_growth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YoY_avg_price_growth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YoY_avg_price_growth"
+			        }
+			      ]
+			    },
+			    "car_data_has_MTD_avg_price": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.MTD_avg_price": {
+			          "Target": {
+			            "Entity": "car_data.MTD_avg_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.MTD_avg_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_MTD_avg_price"
+			        }
+			      ]
+			    },
+			    "car_data_has_MTD_avg_price_KPI": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.MTD_avg_price_KPI": {
+			          "Target": {
+			            "Entity": "car_data.MTD_avg_price_KPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.MTD_avg_price_KPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_MTD_avg_price_KPI"
+			        }
+			      ]
+			    },
+			    "car_data_has_YTD_cars_sold": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YTD_cars_sold": {
+			          "Target": {
+			            "Entity": "car_data.YTD_cars_sold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YTD_cars_sold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YTD_cars_sold"
+			        }
+			      ]
+			    },
+			    "car_data_has_PYTD_cars_sold": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.PYTD_cars_sold": {
+			          "Target": {
+			            "Entity": "car_data.PYTD_cars_sold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.PYTD_cars_sold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_PYTD_cars_sold"
+			        }
+			      ]
+			    },
+			    "car_data_has_cars_sold_diff": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.cars_sold_diff": {
+			          "Target": {
+			            "Entity": "car_data.cars_sold_diff"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.cars_sold_diff"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_cars_sold_diff"
+			        }
+			      ]
+			    },
+			    "car_data_has_cars_sold_color": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.cars_sold_color": {
+			          "Target": {
+			            "Entity": "car_data.cars_sold_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.cars_sold_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_cars_sold_color"
+			        }
+			      ]
+			    },
+			    "car_data_has_YoY_car_sold_growth": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.YoY_car_sold_growth": {
+			          "Target": {
+			            "Entity": "car_data.YoY_car_sold_growth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.YoY_car_sold_growth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_YoY_car_sold_growth"
+			        }
+			      ]
+			    },
+			    "car_data_has_MTD_cars_sold": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.MTD_cars_sold": {
+			          "Target": {
+			            "Entity": "car_data.MTD_cars_sold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.MTD_cars_sold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_MTD_cars_sold"
+			        }
+			      ]
+			    },
+			    "car_data_has_MTD_cars_sold_KPI": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.MTD_cars_sold_KPI": {
+			          "Target": {
+			            "Entity": "car_data.MTD_cars_sold_KPI"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.MTD_cars_sold_KPI"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_MTD_cars_sold_KPI"
+			        }
+			      ]
+			    },
+			    "car_data_has_total_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.total_sales": {
+			          "Target": {
+			            "Entity": "car_data.total_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.total_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_total_sales"
+			        }
+			      ]
+			    },
+			    "car_data_has_max_point": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "car_data.max_point": {
+			          "Target": {
+			            "Entity": "car_data.max_point"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "car_data.max_point"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_max_point"
+			        }
+			      ]
+			    },
+			    "calendar_table_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table": {
+			          "Target": {
+			            "Entity": "calendar_table"
+			          }
+			        },
+			        "calendar_table.date": {
+			          "Target": {
+			            "Entity": "calendar_table.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_tables_have_dates"
+			        }
+			      ]
+			    },
+			    "calendar_table_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table": {
+			          "Target": {
+			            "Entity": "calendar_table"
+			          }
+			        },
+			        "calendar_table.year": {
+			          "Target": {
+			            "Entity": "calendar_table.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_tables_have_years"
+			        }
+			      ]
+			    },
+			    "calendar_table_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table": {
+			          "Target": {
+			            "Entity": "calendar_table"
+			          }
+			        },
+			        "calendar_table.month": {
+			          "Target": {
+			            "Entity": "calendar_table.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_tables_have_months"
+			        }
+			      ]
+			    },
+			    "calendar_table_has_week": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table": {
+			          "Target": {
+			            "Entity": "calendar_table"
+			          }
+			        },
+			        "calendar_table.week": {
+			          "Target": {
+			            "Entity": "calendar_table.week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_tables_have_weeks"
+			        }
+			      ]
+			    },
+			    "car_data_has_calendar_table": {
+			      "Binding": {
+			        "ConceptualEntity": "car_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "car_data": {
+			          "Target": {
+			            "Entity": "car_data"
+			          }
+			        },
+			        "calendar_table": {
+			          "Target": {
+			            "Entity": "calendar_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "car_data"
+			            },
+			            "Object": {
+			              "Role": "calendar_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "car_data_have_calendar_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table"
+			            },
+			            "Object": {
+			              "Role": "car_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_tables_have_car_data"
+			        }
+			      ]
+			    },
+			    "calendar_table_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table.date": {
+			          "Target": {
+			            "Entity": "calendar_table.date"
+			          }
+			        },
+			        "calendar_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendar_table.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table.date"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "calendar_table_date_date_hierarchy_has_calendar_table_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendar_table.date.date_hierarchy"
+			          }
+			        },
+			        "calendar_table.date.year": {
+			          "Target": {
+			            "Entity": "calendar_table.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "calendar_table_date_date_hierarchy_has_calendar_table_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendar_table.date.date_hierarchy"
+			          }
+			        },
+			        "calendar_table.date.quarter": {
+			          "Target": {
+			            "Entity": "calendar_table.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "calendar_table_date_date_hierarchy_has_calendar_table_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendar_table.date.date_hierarchy"
+			          }
+			        },
+			        "calendar_table.date.month": {
+			          "Target": {
+			            "Entity": "calendar_table.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "calendar_table_date_date_hierarchy_has_calendar_table_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendar Table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendar_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "calendar_table.date.date_hierarchy"
+			          }
+			        },
+			        "calendar_table.date.day": {
+			          "Target": {
+			            "Entity": "calendar_table.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendar_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "calendar_table.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  }
 			}
 		contentType: json
 
