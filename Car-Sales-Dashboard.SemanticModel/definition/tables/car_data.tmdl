@@ -88,6 +88,14 @@ table car_data
 	measure 'MTD Cars Sold KPI' = CONCATENATE("MTD Cars Sold : ",FORMAT([MTD Cars Sold]/1000,"$0.00K"))
 		lineageTag: 313cd479-431f-4f0e-91b0-b0b3258d30f5
 
+	measure 'Total Sales' = SUM(car_data[Price ($)])
+		formatString: 0
+		lineageTag: 4d76f3f7-8f55-4d61-b2c2-0bbb131d5e2f
+
+	measure 'Max Point' = IF(MAXX(ALLSELECTED('Calendar Table'[Week]),[Total Sales])=[Total Sales],MAXX(ALLSELECTED('Calendar Table'[Week]),[Total Sales]),BLANK())
+		formatString: 0
+		lineageTag: 9c8e647f-86c2-47e1-8d50-63f0e009d3c5
+
 	column Car_id
 		dataType: string
 		lineageTag: 77e01281-1183-4e4f-9d98-d3d0f9aa5a22
