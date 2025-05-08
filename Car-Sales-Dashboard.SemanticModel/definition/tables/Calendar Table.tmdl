@@ -1,0 +1,43 @@
+table 'Calendar Table'
+	lineageTag: 0995b4b3-e108-47b1-a863-75596c651b1a
+
+	column Date
+		formatString: General Date
+		lineageTag: cf334441-bde8-4bc3-bcb1-59e795ac928f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: a97196c6-0c40-455a-90ff-977828cdd072
+			defaultHierarchy: LocalDateTable_fac16678-7864-446f-8139-1189f21b988b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year = YEAR('Calendar Table'[Date])
+		formatString: 0
+		lineageTag: 27c83187-7a73-4e7e-987f-4bb0165f48c2
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month = FORMAT('Calendar Table'[Date],"MMMM")
+		lineageTag: 8dc5480b-1704-43aa-b115-cc8c9f7cfc5d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Week = WEEKNUM('Calendar Table'[Date])
+		formatString: 0
+		lineageTag: 6ed5f838-8801-4bc3-b032-fc68d3c942e3
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Calendar Table' = calculated
+		mode: import
+		source = CALENDAR(MIN(car_data[Date]),MAX(car_data[Date]))
+
+	annotation PBI_Id = 8affb7c7591249d4a9b226e9cb70083d
+

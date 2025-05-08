@@ -16,7 +16,8 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 ref table car_data
 ref table DateTableTemplate_eb3b8680-ffe9-447a-8ad8-24973711be72
-ref table LocalDateTable_e7127325-6dd7-4a11-9022-14d1764c40c5
+ref table 'Calendar Table'
+ref table LocalDateTable_fac16678-7864-446f-8139-1189f21b988b
 
 ref cultureInfo en-US
 

@@ -1,6 +1,93 @@
 table car_data
 	lineageTag: c62970a8-d4cd-4cfd-bc1d-a725d851e925
 
+	measure 'YTD Total Sales' = TOTALYTD(SUM(car_data[Price ($)]),'Calendar Table'[Date])
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 71854d02-4af6-43de-a6e7-9fc71776efff
+
+	measure 'PYTD Total Sales' = CALCULATE(SUM(car_data[Price ($)]),SAMEPERIODLASTYEAR('Calendar Table'[Date]))
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: d077baa6-07a0-4a70-b608-093143956e57
+
+	measure 'Sales Difference' = [YTD Total Sales]-[PYTD Total Sales]
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 8c1f696c-2cfc-4c3f-9e87-939dac2df201
+
+	measure 'Sales Diff Colour' = IF([Sales Difference]>0,"Green","Red")
+		lineageTag: 5ea37cd5-048e-4b76-9e46-674bf702d8b0
+
+	measure 'YoY Sales Growth' = [Sales Difference]/[PYTD Total Sales]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 7fdecff6-c057-4848-a482-0415a766fa58
+
+	measure 'MTD Total Sales' = TOTALMTD(SUM(car_data[Price ($)]),'Calendar Table'[Date])
+		formatString: 0
+		lineageTag: 0013bb52-17e8-4f16-b2a9-d8abb140015e
+
+	measure 'MTD KPI' = CONCATENATE("MTD Total Sales : ",FORMAT([MTD Total Sales]/1000000,"$0.00M"))
+		lineageTag: a8bbe84c-65f9-41d0-b958-e398ff624b37
+
+	measure 'Avg Price' = SUM(car_data[Price ($)])/COUNT(car_data[Car_id])
+		lineageTag: 4b399709-c661-4d52-9ecf-b398ecad2527
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'YTD Avg Price' = TOTALYTD([Avg Price],'Calendar Table'[Date])
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: bcbae275-c112-4394-8a4d-dc2921e8b85a
+
+	measure 'PYTD Avg Price' = CALCULATE([Avg Price],SAMEPERIODLASTYEAR('Calendar Table'[Date]))
+		lineageTag: a392bdea-d118-467a-b287-78fb5133d675
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg Price Diff' = [YTD Avg Price]-[PYTD Avg Price]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 113312d1-4e3f-42a2-ad96-3ce1c13a05a7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Avg Price Color' = IF([Avg Price Diff]>0,"Green","Red")
+		lineageTag: b2d27f34-184d-41cb-bf87-d707f932cec5
+
+	measure 'YoY Avg Price Growth' = [Avg Price Diff]/[PYTD Avg Price]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: fe3b92f4-1ee3-4565-9aaa-1fa15d7a92b5
+
+	measure 'MTD Avg Price' = TOTALMTD([Avg Price],'Calendar Table'[Date])
+		lineageTag: fc2b755f-15a4-4521-a006-9858d70af69c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'MTD Avg Price KPI' = CONCATENATE("MTD Avg Price : ",FORMAT([MTD Avg Price]/1000,"$0.00K"))
+		lineageTag: ebacab7d-5f7b-45ab-a1f4-54952541d361
+
+	measure 'YTD Cars Sold' = TOTALYTD(COUNT(car_data[Car_id]),'Calendar Table'[Date])
+		formatString: 0.0
+		lineageTag: 6351f812-86ba-4285-883d-db9af856a87b
+
+	measure 'PYTD Cars Sold' = CALCULATE(COUNT(car_data[Car_id]),SAMEPERIODLASTYEAR('Calendar Table'[Date]))
+		formatString: 0
+		lineageTag: 4adf1444-4131-4d0c-9f56-6e7875194274
+
+	measure 'Cars Sold Diff' = [YTD Cars Sold]-[PYTD Cars Sold]
+		formatString: 0.00
+		lineageTag: 84c938a8-5af7-471b-bedc-c94db47f8030
+
+	measure 'Cars Sold Color' = IF(car_data[Cars Sold Diff]>0,"Green","Red")
+		lineageTag: 25c7de8c-7d2c-4be7-b1c7-698598732c2d
+
+	measure 'YoY Car Sold Growth' = [Cars Sold Diff]/[YTD Cars Sold]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: e51cb225-6404-4414-9179-b66429cf01e1
+
+	measure 'MTD Cars Sold' = TOTALMTD(COUNT(car_data[Car_id]),'Calendar Table'[Date])
+		formatString: 0
+		lineageTag: 8190e7c7-53d9-4d54-bf31-fef4c4253849
+
+	measure 'MTD Cars Sold KPI' = CONCATENATE("MTD Cars Sold : ",FORMAT([MTD Cars Sold]/1000,"$0.00K"))
+		lineageTag: 313cd479-431f-4f0e-91b0-b0b3258d30f5
+
 	column Car_id
 		dataType: string
 		lineageTag: 77e01281-1183-4e4f-9d98-d3d0f9aa5a22
@@ -15,11 +102,6 @@ table car_data
 		lineageTag: ca305e75-f293-433a-ab26-0535cd046f51
 		summarizeBy: none
 		sourceColumn: Date
-
-		variation Variation
-			isDefault
-			relationship: b2e8bb35-6fc2-49b5-86cd-64dc21fee10d
-			defaultHierarchy: LocalDateTable_e7127325-6dd7-4a11-9022-14d1764c40c5.'Date Hierarchy'
 
 		annotation SummarizationSetBy = Automatic
 
@@ -147,9 +229,12 @@ table car_data
 				    Source = Excel.Workbook(File.Contents("D:\Power BI\Projects\Car-Sales-Dashboard\Data\Car Sales.xlsx"), null, true),
 				    car_data_Sheet = Source{[Item="car_data",Kind="Sheet"]}[Data],
 				    #"Promoted Headers" = Table.PromoteHeaders(car_data_Sheet, [PromoteAllScalars=true]),
-				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Car_id", type text}, {"Date", type date}, {"Customer Name", type text}, {"Gender", type text}, {"Annual Income", Int64.Type}, {"Dealer_Name", type text}, {"Company", type text}, {"Model", type any}, {"Engine", type text}, {"Transmission", type text}, {"Color", type text}, {"Price ($)", Int64.Type}, {"Dealer_No ", type text}, {"Body Style", type text}, {"Phone", Int64.Type}, {"Dealer_Region", type text}})
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Car_id", type text}, {"Date", type date}, {"Customer Name", type text}, {"Gender", type text}, {"Annual Income", Int64.Type}, {"Dealer_Name", type text}, {"Company", type text}, {"Model", type any}, {"Engine", type text}, {"Transmission", type text}, {"Color", type text}, {"Price ($)", Int64.Type}, {"Dealer_No ", type text}, {"Body Style", type text}, {"Phone", Int64.Type}, {"Dealer_Region", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","DoubleÂ Overhead Camshaft","Double Overhead Camshaft",Replacer.ReplaceText,{"Engine"})
 				in
-				    #"Changed Type"
+				    #"Replaced Value"
 
 	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
 

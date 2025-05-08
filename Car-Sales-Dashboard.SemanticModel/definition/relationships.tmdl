@@ -1,5 +1,9 @@
-relationship b2e8bb35-6fc2-49b5-86cd-64dc21fee10d
+relationship a97196c6-0c40-455a-90ff-977828cdd072
 	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Calendar Table'.Date
+	toColumn: LocalDateTable_fac16678-7864-446f-8139-1189f21b988b.Date
+
+relationship 308ae4d8-a75a-3445-58f9-57bd0d64d3ab
 	fromColumn: car_data.Date
-	toColumn: LocalDateTable_e7127325-6dd7-4a11-9022-14d1764c40c5.Date
+	toColumn: 'Calendar Table'.Date
 
