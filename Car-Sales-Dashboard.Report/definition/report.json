@@ -47,6 +47,22 @@
           "type": "BaseTheme"
         }
       ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "data-analysis6236168471032042.png",
+          "path": "data-analysis6236168471032042.png",
+          "type": "Image"
+        },
+        {
+          "name": "transport8707369411526641.png",
+          "path": "transport8707369411526641.png",
+          "type": "Image"
+        }
+      ]
     }
   ],
   "settings": {
@@ -55,5 +71,12 @@
     "allowChangeFilterTypes": true,
     "useEnhancedTooltips": true,
     "useDefaultAggregateDisplayName": true
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": false,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
   }
 }
